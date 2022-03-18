@@ -11,10 +11,5 @@ num = len(re_text.split())
 print("количество чисел в последовательности :", num)
 
 print("Время работы программы: ", time.process_time(), "seconds")
-"""def main():                                  #определяю головную функцию в которую входят две предыдущие
-    print_text()                             #использую def для возможности использования cProfile
-    print_nums(num=len(re_text.split()))
-    programm_time()
-"""
 
 
