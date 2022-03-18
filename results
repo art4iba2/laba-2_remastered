@@ -1,0 +1,36 @@
+последовательность  - 123 .124 .412 , 235 ? 12 ! 4325
+выход  : 
+последовательность чисел :  123 124 412  235  12  4325
+ количество чисел в последовательности : 6
+  10 function calls in 0.000 seconds
+
+     Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 main.py:10(main)
+        1    0.000    0.000    0.000    0.000 main.py:6(print_text)
+        1    0.000    0.000    0.000    0.000 main.py:8(print_nums)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}  
+
+последовательность из 2х миллион чисел 
+выход  :
+количество чисел в последовательности : 2000020
+         10 function calls in 0.347 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.347    0.347 <string>:1(<module>)
+        1    0.041    0.041    0.347    0.347 main.py:10(main)
+        1    0.000    0.000    0.137    0.137 main.py:6(print_text)
+        1    0.000    0.000    0.000    0.000 main.py:8(print_nums)
+        1    0.000    0.000    0.347    0.347 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        2    0.137    0.068    0.137    0.068 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.169    0.169    0.169    0.169 {method 'split' of 'str' objects}
